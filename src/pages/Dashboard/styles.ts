@@ -11,7 +11,7 @@ export const Title = styled.h1`
   max-width: 450px;
   line-height: 56px;
 
-  margin-top: 80px;
+  margin-top: 70px;
 `;
 
 export const Form = styled.form<formProps>`
@@ -53,6 +53,24 @@ export const Form = styled.form<formProps>`
 
     &:hover {
       background: ${shade(0.2, '#04d361')};
+    }
+  }
+`;
+
+export const Example = styled.div`
+  margin: 20px 0px 10px 0px;
+  h3 {
+    font-size: 18px;
+    color: #3a3a3a;
+  }
+  ul {
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+
+    li {
+      font-size: 16px;
+      color: #3a3a3a;
+      padding: 4px;
     }
   }
 `;
